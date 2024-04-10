@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Overpass', sans-serif;
+}
+table, th, tr{
+    text-align: center;
+}
+.title2{
+    text-align: center;
+    color: #66afe9;
+    background-color: #efefef;
+    padding: 2%;
+}
+h2{
+    text-align: center;
+    color: #66afe9;
+    background-color: #efefef;
+    padding: 2%;
+}
+table th{
+    background-color: #efefef;
+}
+.detials {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}

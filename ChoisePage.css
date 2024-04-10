@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(img/Bac-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    margin-top: 200px;
+    line-height: 120px;
+    text-align: center;
+}
+.box {
+    padding: 40px;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-weight: 700;
+    font-family: system-ui;
+}
